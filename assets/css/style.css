@@ -58,6 +58,8 @@ menu > li{
 
 #logo{
     color:#FFF;
+    margin:0.7em 0 0.3em 1em;
+    text-align: center;
 }
 
 #logo > h1{
@@ -110,6 +112,10 @@ menu > li{
     color:#FFF;
     padding: 5%;
     right:0;
+}
+
+#welcome-text button:hover{
+    color: #BCD3DE;
 }
 
 #welcome-text > h2{
