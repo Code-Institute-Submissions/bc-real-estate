@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+#main-navigation .active{
+    border-bottom: 0.3em solid #0168A2;
+}
+
 /*Heading and logo*/
 
 header{
