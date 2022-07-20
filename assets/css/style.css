@@ -9,8 +9,8 @@
 /* GENERAL STYLES */
 /* ------------------------ */
 html, body{
-    font-size: 12.5pt;
-    font-family: "Inter", sans-serif;
+    font-size: 14.5pt;
+    font-family: "Montserrat", sans-serif;
     background-color: gray;
     width: 100%;
 }
@@ -26,9 +26,11 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    background-color: #FFF;
     left:0;
     right:0;
     top:0;
+    font-weight: bold;
 }
 
 menu{
@@ -38,6 +40,7 @@ menu{
 
 menu > li{
     display: inline-block;
+
 }
 
 #logo{
@@ -49,6 +52,7 @@ menu > li{
     padding: 0.50rem;
 }
 #logo p{
+    line-height: 1.7em;
     color:#20202C;
 }
 
@@ -65,4 +69,49 @@ menu > li{
 
 #main-navigation a:hover{
     color: #BCD3DE;
+}
+
+/*Intro section*/
+
+#intro{
+    background-image: url("../images/intro.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding:20% 0;
+}
+
+#welcome-text{
+    display: inline-block;
+    padding: 5rem 12.5% 2% 1.5rem;
+    background-color: rgba(255,255,255, 0.7);
+    line-height: 5em;
+}
+
+#welcome-text button{
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 3rem;
+    background-color:#0168A2;
+    color:#FFF;
+    padding: 5%;
+    right:0;
+}
+
+#welcome-text > h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#welcome-text > p{
+    font-size: 1.1rem;
+}
+
+
+
+/*Our mission section*/
+
+#our-mission{
+    margin-top: 5rem;
 }
