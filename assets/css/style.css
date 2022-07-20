@@ -14,3 +14,55 @@ html, body{
     background-color: gray;
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+}
+
+/*Heading and logo*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+
+menu{
+    list-style: none;
+    letter-spacing: 0.10rem;
+}
+
+menu > li{
+    display: inline-block;
+}
+
+#logo{
+    color:#FFF;
+}
+
+#logo > h1{
+    background-color: #010533;
+    padding: 0.50rem;
+}
+#logo p{
+    color:#20202C;
+}
+
+#logo  em{
+    color: #BCD3DE;
+    font-style: oblique;
+}
+
+#main-navigation a{
+    color: #20202C;
+    padding: 1rem 0.5rem;
+    display: inline-block;
+}
+
+#main-navigation a:hover{
+    color: #BCD3DE;
+}
