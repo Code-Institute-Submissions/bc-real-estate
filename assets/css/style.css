@@ -1,0 +1,16 @@
+*{
+    border: 0;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+html, body{
+    font-size: 12.5pt;
+    font-family: "Inter", sans-serif;
+    background-color: gray;
+    width: 100%;
+}
