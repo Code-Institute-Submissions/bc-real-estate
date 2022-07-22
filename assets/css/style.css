@@ -132,14 +132,15 @@ menu > li{
 #feature{
     background-color:#000034;
     color:#FFF;
+    padding: 1.5rem;
 }
 
 .feature-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 4rem;
-    grid-row-gap: 2.5rem;
+    grid-row-gap: 3rem;
 }
 
 #feature > h2{
@@ -154,3 +155,43 @@ menu > li{
     grid-column:2/-2;
     grid-row: 2/-1;
 }
+
+
+/*Events and news section*/
+
+#events{
+    margin-top: 1.5rem;
+}
+
+.info-news{
+    margin-top:1rem;
+    display: flex;
+}
+
+.info-news div{
+    margin:0.70rem;
+    text-align: center;
+}
+
+/*Footer section*/
+
+footer{
+margin-top: 5rem;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 4%;
+    color: #010533;
+}
+
