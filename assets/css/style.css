@@ -11,7 +11,6 @@
 html, body{
     font-size: 14.5pt;
     font-family: "Montserrat", sans-serif;
-    background-color: gray;
     width: 100%;
 }
 
@@ -114,16 +113,6 @@ menu > li{
     line-height: 5em;
 }
 
-#welcome-text button{
-    display: inline-block;
-    font-size: 1rem;
-    margin-top: 3rem;
-    background-color:#0168A2;
-    color:#FFF;
-    padding: 5%;
-    right:0;
-}
-
 #welcome-text button:hover{
     color: #BCD3DE;
 }
@@ -139,10 +128,10 @@ menu > li{
 
 
 
-/*Our mission section*/
-
-#our-mission{
-    margin-top: 5rem;
+/*feature section*/
+#feature{
+    background-color:#000034;
+    color:#FFF;
 }
 
 .feature-grid{
