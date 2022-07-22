@@ -134,3 +134,24 @@ menu > li{
 #our-mission{
     margin-top: 5rem;
 }
+
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+    grid-column-gap: 4rem;
+    grid-row-gap: 2.5rem;
+}
+
+#feature > h2{
+    text-align: right;
+}
+
+.feature-text{
+    grid-column:-2/1;
+    grid-row: -1/2;
+}
+.showhomes{
+    grid-column:2/-2;
+    grid-row: 2/-1;
+}
