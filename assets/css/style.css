@@ -1,3 +1,4 @@
+/*MOBILE STYLE*/
 *{
     border: 0;
     margin:0;
@@ -9,7 +10,7 @@
 /* GENERAL STYLES */
 /* ------------------------ */
 html, body{
-    font-size: 14.5pt;
+    font-size: 14pt;
     font-family: "Montserrat", sans-serif;
     width: 100%;
 }
@@ -37,46 +38,37 @@ a {
     margin-top: 3rem;
     background-color:#0168A2;
     color:#FFF;
-    padding: 5%;
+    padding: 4%;
     right:0;
 }
 
 /*Heading and logo*/
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
     background-color: #FFF;
-    left:0;
-    right:0;
-    top:0;
     font-weight: bold;
 }
 
 menu{
     list-style: none;
-    letter-spacing: 0.10rem;
 }
 
 menu > li{
-    display: inline-block;
-
+    display:block;
 }
 
 #logo{
     color:#FFF;
-    margin:0.7em 0 0.3em 1em;
+    margin:auto;
     text-align: center;
 }
 
 #logo > h1{
     background-color: #010533;
-    padding: 0.50rem;
+    padding: 0.25rem;
 }
 #logo p{
-    line-height: 1.7em;
+    line-height: 1.3em;
     color:#20202C;
 }
 
@@ -87,7 +79,7 @@ menu > li{
 
 #main-navigation a{
     color: #20202C;
-    padding: 1rem 0.5rem;
+    padding: 0.70rem 0.25rem;
     display: inline-block;
 }
 
@@ -102,15 +94,19 @@ menu > li{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    padding:20% 0;
+    height: 80vh;
+    padding:5% 0;
 }
 
 #welcome-text{
-    display: inline-block;
-    padding: 5rem 12.5% 2% 1.5rem;
+    padding: 0.50rem;
     background-color: rgba(255,255,255, 0.7);
-    line-height: 5em;
+    line-height: 3.5em;
+}
+
+#welcome-text > p{
+    margin-top: 1rem;
+    line-height: 1.2em;
 }
 
 #welcome-text button:hover{
@@ -127,34 +123,34 @@ menu > li{
 }
 
 
-
 /*feature section*/
-#feature{
+#features{
     background-color:#000034;
     color:#FFF;
     padding: 1.5rem;
 }
 
-.feature-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 4rem;
-    grid-row-gap: 3rem;
+.feature-items > *{
+    margin: 0.80rem 0 1rem 0;
 }
 
-#feature > h2{
-    text-align: right;
-    margin-bottom: 1rem;
+#features > h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.10rem;
+}
+
+.feature-item figcaption h2, p, h4{
+   margin:0.25rem 0.25rem 0.70rem 0.25rem;
 }
 
 .feature-text{
-    grid-column:-2/1;
-    grid-row: -1/2;
+    margin-top: 3rem;
 }
-.showhomes{
-    grid-column:2/-2;
-    grid-row: 2/-1;
+
+.feature-text > h2{
+    text-align: center;
+    margin-bottom: 0.70rem;
 }
 
 .feature-image{
@@ -168,11 +164,12 @@ menu > li{
 #our-offer{
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
+    text-align: center;
 }
 
 .info-offer{
-    margin-top:1rem;
-    display: flex;
+    margin-top: 1rem;
+    display: block;
 }
 
 .info-offer div{
