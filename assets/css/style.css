@@ -145,6 +145,7 @@ menu > li{
 
 #feature > h2{
     text-align: right;
+    margin-bottom: 1rem;
 }
 
 .feature-text{
@@ -156,27 +157,38 @@ menu > li{
     grid-row: 2/-1;
 }
 
-
-/*Events and news section*/
-
-#events{
-    margin-top: 1.5rem;
+.feature-image{
+    width: 100%;
+    height: 100%;
 }
 
-.info-news{
+
+/*Our offer section*/
+
+#our-offer{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.info-offer{
     margin-top:1rem;
     display: flex;
 }
 
-.info-news div{
+.info-offer div{
     margin:0.70rem;
     text-align: center;
+}
+
+.offer-image{
+    width: 80%;
+    height: 80%;
 }
 
 /*Footer section*/
 
 footer{
-margin-top: 5rem;
+margin-top: 3rem;
 }
 
 .social-networks{
