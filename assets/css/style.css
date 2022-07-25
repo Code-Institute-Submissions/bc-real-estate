@@ -13,6 +13,8 @@ html, body{
     font-size: 14pt;
     font-family: "Montserrat", sans-serif;
     width: 100%;
+    background-color: #FFF;
+    color: #010533;
 }
 
 h1,
@@ -26,6 +28,11 @@ h6{
 
 a {
     text-decoration: none;
+    color: #BCD3DE;
+}
+
+a:hover, a:focus, a:active{
+    color: #0168A2;
 }
 
 #main-navigation .active{
@@ -34,16 +41,18 @@ a {
 
 .button{
     display: inline-block;
-    font-size: 1rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     background-color:#0168A2;
     color:#FFF;
-    padding: 4%;
-    right:0;
+    padding: 1rem;
+}
+.button:hover,
+.button:focus,
+.button:active{
+    color: #FFF;
 }
 
 /*Heading and logo*/
-
 header{
     background-color: #FFF;
     font-weight: bold;
@@ -55,6 +64,7 @@ menu{
 
 menu > li{
     display:block;
+    text-align: center;
 }
 
 #logo{
@@ -66,15 +76,17 @@ menu > li{
 #logo > h1{
     background-color: #010533;
     padding: 0.25rem;
+    margin-bottom: 0.25rem;
 }
-#logo p{
-    line-height: 1.3em;
+#logo > p{
+    display: inline-block;
     color:#20202C;
+    border-bottom: 3px solid #BCD3DE;
+    padding: 0 0.25em 0.25em;
 }
 
-#logo  em{
+#logo em{
     color: #BCD3DE;
-    font-style: oblique;
 }
 
 #main-navigation a{
@@ -94,19 +106,17 @@ menu > li{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     padding:5% 0;
 }
 
 #welcome-text{
     padding: 0.50rem;
     background-color: rgba(255,255,255, 0.7);
-    line-height: 3.5em;
 }
 
 #welcome-text > p{
     margin-top: 1rem;
-    line-height: 1.2em;
 }
 
 #welcome-text button:hover{
@@ -122,7 +132,6 @@ menu > li{
     font-size: 1.1rem;
 }
 
-
 /*feature section*/
 #features{
     background-color:#000034;
@@ -134,13 +143,13 @@ menu > li{
     margin: 0.80rem 0 1rem 0;
 }
 
-#features > h1{
+#features > h2{
     text-align: center;
     margin-bottom: 1.5rem;
     letter-spacing: 0.10rem;
 }
 
-.feature-item figcaption h2, p, h4{
+.feature-item figcaption > *{
    margin:0.25rem 0.25rem 0.70rem 0.25rem;
 }
 
@@ -148,14 +157,23 @@ menu > li{
     margin-top: 3rem;
 }
 
-.feature-text > h2{
+.feature-text > h3{
     text-align: center;
     margin-bottom: 0.70rem;
+    font-size: 1.5rem;
+}
+
+.feature-text > .button{
+    display: block;
+    margin: 2rem;
+    text-align: center;
 }
 
 .feature-image{
     width: 100%;
     height: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
 }
 
 
@@ -169,7 +187,11 @@ menu > li{
 
 .info-offer{
     margin-top: 1rem;
-    display: block;
+    display: flex;
+    gap:0.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-offer div{
@@ -180,27 +202,40 @@ menu > li{
 .offer-image{
     width: 80%;
     height: 80%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    margin-bottom: 1rem;
 }
 
 /*Footer section*/
 
 footer{
-margin-top: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.social-networks{
-    text-align: center;
-
+.social-networks ul{
+    list-style: none;
 }
 
 .social-networks li{
-    display: inline;
+    display: inline-block;
+}
+.social-networks a{
+    display: inline-block;
 }
 
 .social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 4%;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 2rem;
     color: #010533;
 }
+
+footer p {
+    color:gray;
+    font-size: 0.9rem;
+}
+
 
