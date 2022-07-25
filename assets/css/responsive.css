@@ -1,0 +1,210 @@
+/*TABLET STYLE*/
+*{
+    border: 0;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+html, body{
+    font-size: 14.5pt;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-navigation .active{
+    border-bottom: 0.3em solid #0168A2;
+}
+
+.button{
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 3rem;
+    background-color:#0168A2;
+    color:#FFF;
+    padding: 5%;
+    right:0;
+}
+
+/*Heading and logo*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #FFF;
+    left:0;
+    right:0;
+    top:0;
+    font-weight: bold;
+}
+
+menu{
+    list-style: none;
+    letter-spacing: 0.10rem;
+}
+
+menu > li{
+    display: inline-block;
+
+}
+
+#logo{
+    color:#FFF;
+    margin:0.7em 0 0.3em 1em;
+    text-align: center;
+}
+
+#logo > h1{
+    background-color: #010533;
+    padding: 0.50rem;
+}
+#logo p{
+    line-height: 1.7em;
+    color:#20202C;
+}
+
+#logo  em{
+    color: #BCD3DE;
+    font-style: oblique;
+}
+
+#main-navigation a{
+    color: #20202C;
+    padding: 1rem 0.5rem;
+    display: inline-block;
+}
+
+#main-navigation a:hover{
+    color: #BCD3DE;
+}
+
+/*Intro section*/
+
+#intro{
+    background-image: url("../images/intro.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding:20% 0;
+}
+
+#welcome-text{
+    display: inline-block;
+    padding: 5rem 12.5% 2% 1.5rem;
+    background-color: rgba(255,255,255, 0.7);
+    line-height: 5em;
+}
+
+#welcome-text button:hover{
+    color: #BCD3DE;
+}
+
+#welcome-text > h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#welcome-text > p{
+    font-size: 1.1rem;
+}
+
+
+
+/*feature section*/
+#features{
+    background-color:#000034;
+    color:#FFF;
+    padding: 1.5rem;
+}
+
+.feature-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 3rem;
+}
+
+#features > h2{
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.feature-text{
+    grid-column:-2/1;
+    grid-row: -1/2;
+}
+.showhomes{
+    grid-column:2/-2;
+    grid-row: 2/-1;
+}
+
+.feature-image{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Our offer section*/
+
+#our-offer{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.info-offer{
+    margin-top:1rem;
+    display: flex;
+}
+
+.info-offer div{
+    margin:0.70rem;
+    text-align: center;
+}
+
+.offer-image{
+    width: 80%;
+    height: 80%;
+}
+
+/*Footer section*/
+
+footer{
+    margin-top: 3rem;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 4%;
+    color: #010533;
+}
+
