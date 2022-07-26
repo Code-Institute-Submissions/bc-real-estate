@@ -178,7 +178,6 @@ menu > li{
 
 
 /*Our offer section*/
-
 #our-offer{
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
@@ -253,12 +252,15 @@ footer p {
 
 
 /*CONTACT US PAGE STYLE*/
-
 #form-section{
     color: #FFF;
     background-color: #010533;
     text-align: center;
     margin-top: 2rem;
+}
+
+.contact-form{
+   padding:0;
 }
 
 .contact-form label{
@@ -267,6 +269,17 @@ footer p {
 
 .contact-form input{
     display: inline-block;
+}
+
+.contact-form > h2{
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.contact-form #comments{
+    height: 30vh;
+    width: 50vh;
+    margin:0.60rem;
 }
 
 .text-input{
@@ -279,21 +292,9 @@ footer p {
     background-color: #BCD3DE;
 }
 
-.contact-form > h2{
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.contact-form #comments{
-    height: 30vh;
-    width: 50vh;
-    margin:0.60rem;
-}
-
 .contact-button{
-    margin:2rem 5rem 0 5rem;
-    padding: 1rem 3rem;
-    box-sizing: border-box;
+    margin-bottom: 2rem;
+    padding:1.5rem 3rem;
 }
 
 .contact-button:hover,
@@ -301,4 +302,3 @@ footer p {
 .contact-button:active{
     color:#FFF;
 }
-
