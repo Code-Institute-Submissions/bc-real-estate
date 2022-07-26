@@ -86,3 +86,21 @@ text-align: right;
 /*Footer section*/
 
 
+
+/*CATALOGUE RESPONSIVE STYLE*/
+#catalogue{
+    margin-top: 6rem;
+}
+
+.list-catalogue{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:1rem;
+    align-items: center;
+}
+
+/*CONTACT US RESPONSIVE STYLE*/
+
+
+
