@@ -208,7 +208,6 @@ menu > li{
 }
 
 /*Footer section*/
-
 footer{
     margin-top: 3rem;
     text-align: center;
@@ -236,6 +235,20 @@ footer{
 footer p {
     color:gray;
     font-size: 0.9rem;
+}
+
+/*CATALOGUE PAGE STYLE*/
+#catalogue{
+    background-color: #010533;
+    color:#FFF;
+    margin-top: 2rem;
+}
+
+.list-catalogue{
+    padding:0.25rem;
+}
+.list-catalogue .house{
+    margin: 2.5rem 0;
 }
 
 
