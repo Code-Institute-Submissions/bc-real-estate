@@ -239,3 +239,53 @@ footer p {
 }
 
 
+/*CONTACT US PAGE STYLE*/
+
+#form-section{
+    color: #FFF;
+    background-color: #010533;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-form label{
+    display: block;
+}
+
+.contact-form input{
+    display: inline-block;
+}
+
+.text-input{
+    padding: 0.50rem;
+    margin: 0.60rem 0 0.80rem 0;
+}
+
+.text-input:hover,
+.text-input:focus{
+    background-color: #BCD3DE;
+}
+
+.contact-form > h2{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-form #comments{
+    height: 30vh;
+    width: 50vh;
+    margin:0.60rem;
+}
+
+.contact-button{
+    margin:2rem 5rem 0 5rem;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+}
+
+.contact-button:hover,
+.contact-button:focus,
+.contact-button:active{
+    color:#FFF;
+}
+
