@@ -33,7 +33,7 @@ menu > li{
 }
 
 #logo{
-    margin:0.7em 0 0.3em 1em;
+    margin:0.7em 0;
 }
 
 #logo > h1{
@@ -57,7 +57,7 @@ menu > li{
 
 #welcome-text{
     display: inline-block;
-    padding: 5rem 12.5% 2% 1.5rem;
+    padding: 5rem 6% 2% 1.5rem;
 }
 
 /*feature section*/
@@ -79,8 +79,23 @@ text-align: right;
 }
 
 /*Our offer section*/
+#our-offer > h2{
+    text-align: left;
+    margin-left: 1rem;
+}
+
 .info-offer{
     flex-direction: row;
+    align-items: flex-start;
+}
+
+.info-offer div{
+    padding: 0;
+}
+
+.offer-image{
+    width: 100%;
+    height: 100%;
 }
 
 /*Footer section*/
@@ -88,10 +103,6 @@ text-align: right;
 
 
 /*CATALOGUE RESPONSIVE STYLE*/
-#catalogue{
-    margin-top: 6rem;
-}
-
 .list-catalogue{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -102,23 +113,91 @@ text-align: right;
 
 /*CONTACT US RESPONSIVE STYLE*/
 .form-section{
-    background: url("../images/signupImage.jpeg");
+    background-image: url("../images/signupImage.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
 }
 
-.signup-form{
+.contact-form{
     text-align: left;
-    width: 50vw;
+    width: 50%;
     padding: 1.5rem;
     display: block;
 }
 
-.signup-form > h2{
+.contact-form > h2{
     margin-top:4rem;
 }
 
+/*FROM 1024px SMALL DESKTOP(LAPTOP) ONWARDS*/
+@media screen and (min-width: 1024px){
+    header{
+        font-size: 0.70rem;
+        padding:0 1rem;
+    }
+    #intro{
+        padding:15% 0;
+    }
+    #features{
+        font-size: 1.2rem;
+        padding: 3rem;
+    }
+
+    .feature-items{
+        grid-column-gap: 15%;
+        grid-row-gap: 5%;
+
+    }
+    .feature-image{
+        aspect-ratio: 16/9;
+    }
+
+    .feature-text{
+        text-align: center;
+    }
+
+    #our-offer{
+        font-size: 1rem;
+    }
+
+    .feature-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        gap:0.5rem;
+        padding:10%;
+    }
+
+    .feature-text > .button{
+        margin:1rem;
+    }
+}
+
+
+/*FROM LARGE DESKTOP ONWARDS*/
+@media screen and (min-width: 1440px){
+    #features, #our-offer{
+        padding: 3rem 10%;
+    }
+}
+
+/*FROM XL DESKTOP ONWARDS*/
+@media screen and (min-width: 1800px){
+    header{
+        font-size: 1rem;
+    }
+
+    #our-offer{
+        font-size: 1.25rem;
+    }
+    #our-offer > h2{
+        margin-bottom: 2rem;
+    }
+
+}
 
 
