@@ -100,9 +100,8 @@ menu > li{
 }
 
 /*Intro section*/
-
 #intro{
-    background-image: url("../images/intro.jpeg");
+    background-image: url("../images/intro.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -176,7 +175,6 @@ menu > li{
     object-fit: cover;
 }
 
-
 /*Our offer section*/
 #our-offer{
     margin-top: 1.5rem;
@@ -208,7 +206,7 @@ menu > li{
 
 /*Footer section*/
 footer{
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -231,7 +229,7 @@ footer{
     color: #010533;
 }
 
-footer p {
+footer p{
     color:gray;
     font-size: 0.9rem;
 }
@@ -250,55 +248,47 @@ footer p {
     margin: 2.5rem 0;
 }
 
-
 /*CONTACT US PAGE STYLE*/
-#form-section{
-    color: #FFF;
+.form-section {
+    height: 100vh;
+    margin-top:1.5rem;
+}
+
+.signup-form {
+    color: #fff;
     background-color: #010533;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.contact-form{
-   padding:0;
-}
-
-.contact-form label{
-    display: block;
-}
-
-.contact-form input{
-    display: inline-block;
-}
-
-.contact-form > h2{
-    margin-bottom: 2.5rem;
+    padding: 1rem;
     text-align: center;
 }
 
-.contact-form #comments{
-    height: 30vh;
-    width: 50vh;
-    margin:0.60rem;
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 2rem;
 }
 
-.text-input{
-    padding: 0.50rem;
-    margin: 0.60rem 0 0.80rem 0;
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    padding: 0.70rem;
+    margin: 0.50rem 0 0.20rem 0;
+    border: 1px solid #fafafa;
+    box-sizing: border-box;
 }
 
 .text-input:hover,
 .text-input:focus{
-    background-color: #BCD3DE;
+    border-color: #BCD3DE;
 }
 
-.contact-button{
-    margin-bottom: 2rem;
-    padding:1.5rem 3rem;
+.text-box{
+    height: 110px;
 }
 
-.contact-button:hover,
-.contact-button:focus,
-.contact-button:active{
-    color:#FFF;
+.button{
+    display: inline-block;
+    margin-top: 0.50rem;
+    padding:1rem 2.5rem;
+    font-size: 0.90rem;
+    font-weight: bold;
 }

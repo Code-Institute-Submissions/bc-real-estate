@@ -101,6 +101,24 @@ text-align: right;
 }
 
 /*CONTACT US RESPONSIVE STYLE*/
+.form-section{
+    background: url("../images/signupImage.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.signup-form{
+    text-align: left;
+    width: 50vw;
+    padding: 1.5rem;
+    display: block;
+}
+
+.signup-form > h2{
+    margin-top:4rem;
+}
 
 
 
