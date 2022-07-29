@@ -103,12 +103,19 @@ text-align: right;
 
 
 /*CATALOGUE RESPONSIVE STYLE*/
-.list-catalogue{
+#catalogue > h2 {
+    margin-top:5rem;
+    display: inline-block;
+
+}
+
+.list-catalogue {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    justify-items: start;
     gap:1rem;
-    align-items: center;
+    padding: 0.5rem;
 }
 
 /*CONTACT US RESPONSIVE STYLE*/
@@ -175,6 +182,19 @@ text-align: right;
     .feature-text > .button{
         margin:1rem;
     }
+    /*CATALOGUE PAGE*/
+    .list-catalogue {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 1.2rem;
+    }
+    .price {
+        font-size: 1.35rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-form {
+        padding: 2rem 5%;
+    }
 }
 
 
@@ -183,6 +203,17 @@ text-align: right;
     #features, #our-offer{
         padding: 3rem 10%;
     }
+
+    /*CATALOGUE PAGE*/
+    .list-catalogue {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /*CONTACT PAGE*/
+    .contact-form {
+        padding: 2rem 10%;
+    }
+
 }
 
 /*FROM XL DESKTOP ONWARDS*/
