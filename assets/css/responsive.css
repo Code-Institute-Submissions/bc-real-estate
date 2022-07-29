@@ -3,16 +3,16 @@
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
-html, body{
+html, body {
     font-size: 15pt;
 }
 
-.button{
+.button {
     margin-top: 3rem;
 }
 
 /*Heading and logo*/
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,44 +24,44 @@ header{
     top:0;
 }
 
-menu{
+menu {
     letter-spacing: 0.10rem;
 }
 
-menu > li{
+menu > li {
     display: inline-block;
 }
 
-#logo{
+#logo {
     margin:0.7em 0;
 }
 
-#logo > h1{
+#logo > h1 {
     padding: 0.50rem;
 }
 
-#logo > p{
+#logo > p {
     border: 0;
     padding: 0;
 }
 
-#main-navigation a{
+#main-navigation a {
     padding: 1rem 0.5rem;
 }
 
 
 /*Intro section*/
-#intro{
+#intro {
     padding:20% 0;
 }
 
-#welcome-text{
+#welcome-text {
     display: inline-block;
     padding: 5rem 6% 2% 1.5rem;
 }
 
 /*feature section*/
-.feature-items{
+.feature-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -69,7 +69,7 @@ menu > li{
     grid-row-gap: 3rem;
 }
 
-#features > h2{
+#features > h2 {
 text-align: right;
 }
 
@@ -79,27 +79,24 @@ text-align: right;
 }
 
 /*Our offer section*/
-#our-offer > h2{
+#our-offer > h2 {
     text-align: left;
     margin-left: 1rem;
 }
 
-.info-offer{
+.info-offer {
     flex-direction: row;
     align-items: flex-start;
 }
 
-.info-offer div{
+.info-offer div {
     padding: 0;
 }
 
-.offer-image{
+.offer-image {
     width: 100%;
     height: 100%;
 }
-
-/*Footer section*/
-
 
 
 /*CATALOGUE RESPONSIVE STYLE*/
@@ -139,37 +136,41 @@ text-align: right;
 }
 
 /*FROM 1024px SMALL DESKTOP(LAPTOP) ONWARDS*/
-@media screen and (min-width: 1024px){
-    header{
+@media screen and (min-width: 1024px) {
+    /*LANDING PAGE*/
+    header {
         font-size: 0.70rem;
         padding:0 1rem;
     }
-    #intro{
+
+    #intro {
         padding:15% 0;
     }
-    #features{
+
+    #features {
         font-size: 1.2rem;
         padding: 3rem;
     }
 
-    .feature-items{
+    .feature-items {
         grid-column-gap: 15%;
         grid-row-gap: 5%;
 
     }
-    .feature-image{
+
+    .feature-image {
         aspect-ratio: 16/9;
     }
 
-    .feature-text{
+    .feature-text {
         text-align: center;
     }
 
-    #our-offer{
+    #our-offer {
         font-size: 1rem;
     }
 
-    .feature-text{
+    .feature-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -179,8 +180,8 @@ text-align: right;
         padding:10%;
     }
 
-    .feature-text > .button{
-        margin:1rem;
+    .feature-text > .button {
+        margin: 1rem;
     }
     /*CATALOGUE PAGE*/
     .list-catalogue {
@@ -197,10 +198,10 @@ text-align: right;
     }
 }
 
-
 /*FROM LARGE DESKTOP ONWARDS*/
-@media screen and (min-width: 1440px){
-    #features, #our-offer{
+@media screen and (min-width: 1440px) {
+    /*LANDING PAGE*/
+    #features, #our-offer {
         padding: 3rem 10%;
     }
 
@@ -217,15 +218,16 @@ text-align: right;
 }
 
 /*FROM XL DESKTOP ONWARDS*/
-@media screen and (min-width: 1800px){
-    header{
+@media screen and (min-width: 1800px) {
+    /*LANDING PAGE*/
+    header {
         font-size: 1rem;
     }
 
-    #our-offer{
+    #our-offer {
         font-size: 1.25rem;
     }
-    #our-offer > h2{
+    #our-offer > h2 {
         margin-bottom: 2rem;
     }
     /*CONTACT PAGE*/

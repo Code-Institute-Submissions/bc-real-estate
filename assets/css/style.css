@@ -1,5 +1,5 @@
-/*MOBILE STYLE*/
-*{
+/*MOBILE FIRST APPROACH*/
+* {
     border: 0;
     margin:0;
     padding: 0;
@@ -9,7 +9,7 @@
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
-html, body{
+html, body {
     font-size: 14pt;
     font-family: "Montserrat", sans-serif;
     width: 100%;
@@ -22,7 +22,7 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-family: "Playfair Display", serif;
 }
 
@@ -31,76 +31,78 @@ a {
     color: #BCD3DE;
 }
 
-a:hover, a:focus, a:active{
+a:hover, a:focus, a:active {
     color: #0168A2;
 }
 
-#main-navigation .active{
+#main-navigation .active {
     border-bottom: 0.3em solid #0168A2;
 }
 
-.button{
+.button {
     display: inline-block;
     margin-top: 2.5rem;
     background-color:#0168A2;
     color:#FFF;
     padding: 1rem;
 }
+
 .button:hover,
 .button:focus,
-.button:active{
+.button:active {
     color: #FFF;
 }
 
-/*Heading and logo*/
-header{
+/*HEADING AND LOGO GENERAL STYLE*/
+header {
     background-color: #FFF;
     font-weight: bold;
 }
 
-menu{
+menu {
     list-style: none;
 }
 
-menu > li{
+menu > li {
     display:block;
     text-align: center;
 }
 
-#logo{
+#logo {
     color:#FFF;
     margin:auto;
     text-align: center;
 }
 
-#logo > h1{
+#logo > h1 {
     background-color: #010533;
     padding: 0.25rem;
     margin-bottom: 0.25rem;
 }
-#logo > p{
+
+#logo > p {
     display: inline-block;
     color:#20202C;
     border-bottom: 3px solid #BCD3DE;
     padding: 0 0.25em 0.25em;
 }
 
-#logo em{
+#logo em {
     color: #BCD3DE;
 }
 
-#main-navigation a{
+#main-navigation a {
     color: #20202C;
     padding: 0.70rem 0.25rem;
     display: inline-block;
 }
 
-#main-navigation a:hover{
+#main-navigation a:hover {
     color: #BCD3DE;
 }
 
-/*Intro section*/
-#intro{
+/*INTRO SECTION LANDING PAGE*/
+#intro {
     background-image: url("../images/intro.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,81 +111,81 @@ menu > li{
     padding:20% 0;
 }
 
-#welcome-text{
+#welcome-text {
     padding: 1rem 0.50rem;
     background-color: rgba(255,255,255, 0.7);
 }
 
-#welcome-text > p{
+#welcome-text > p {
     margin:0.50rem 0;
 }
 
-#welcome-text button:hover{
+#welcome-text button:hover {
     color: #BCD3DE;
 }
 
-#welcome-text > h2{
+#welcome-text > h2 {
     font-size: 3rem;
     font-weight: bold;
 }
 
-#welcome-text > p{
+#welcome-text > p {
     font-size: 1.1rem;
 }
 
-/*feature section*/
-#features{
+/*FEATURE SECTION LANDING PAGE*/
+#features {
     background-color:#000034;
     color:#FFF;
     padding: 1.5rem;
 }
 
-.feature-items > *{
+.feature-items > * {
     margin: 0.80rem 0 1rem 0;
 }
 
-#features > h2{
+#features > h2 {
     text-align: center;
     margin-bottom: 1.5rem;
     letter-spacing: 0.10rem;
 }
 
-.feature-item figcaption > *{
+.feature-item figcaption > * {
    margin:0.25rem 0.25rem 0.70rem 0.25rem;
 }
 
-.feature-text{
+.feature-text {
     margin-top: 3rem;
 }
 
-.feature-text > h3{
+.feature-text > h3 {
     text-align: center;
     margin-bottom: 0.70rem;
     font-size: 1.5rem;
 }
 
-.feature-text > .button{
+.feature-text > .button {
     display: block;
     margin: 2rem;
     text-align: center;
 }
 
-.feature-image{
+.feature-image {
     width: 100%;
-    height: 100%;
+    height: auto;
     aspect-ratio: 4/3;
     object-fit: cover;
 }
 
-/*Our offer section*/
-#our-offer{
+/*OUR OFFER SECTION LANDING PAGE*/
+#our-offer {
     font-family: "Playfair Display", serif;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
 }
 
-.info-offer{
+.info-offer {
     margin-top: 1rem;
     display: flex;
     gap:1rem;
@@ -192,13 +194,13 @@ menu > li{
     align-items: center;
 }
 
-.info-offer div{
+.info-offer div {
     margin:0.70rem;
     padding:0 0.5rem;
     text-align: center;
 }
 
-.offer-image{
+.offer-image {
     width: 75%;
     height: 75%;
     aspect-ratio: 4/3;
@@ -206,36 +208,37 @@ menu > li{
     margin-bottom: 1rem;
 }
 
-#location-map{
+#location-map {
     height: 50vh;
 }
 
-/*Footer section*/
-footer{
+/*FOOTER SECTION GENERAL STYLE*/
+footer {
     margin-top: 2rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.social-networks ul{
+.social-networks ul {
     list-style: none;
 }
 
-.social-networks li{
-    display: inline-block;
-}
-.social-networks a{
+.social-networks li {
     display: inline-block;
 }
 
-.social-networks i{
+.social-networks a {
+    display: inline-block;
+}
+
+.social-networks i {
     font-size: 1.5rem;
     margin: 1rem;
     padding: 2rem;
     color: #010533;
 }
 
-footer p{
+footer p {
     color:gray;
     font-size: 0.9rem;
 }
@@ -293,6 +296,7 @@ footer p{
 }
 
 .text-input {
+    font-family: inherit;
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -314,7 +318,7 @@ footer p{
     border-color: #BCD3DE;
 }
 
-.button{
+.button {
     display: inline-block;
     margin-top: 0.50rem;
     padding:1rem 2.5rem;
@@ -331,12 +335,13 @@ footer p{
 }
 
 /*FROM MOBILE L ONWARDS - IMAGES FIX*/
-@media screen and (min-width: 425px){
-    .feature-items, .info-offer{
+@media screen and (min-width: 425px) {
+    /*LANDING PAGE*/
+    .feature-items, .info-offer {
         padding:0 2rem;
     }
 
-    .feature-image, .offer-image{
+    .feature-image, .offer-image {
         display: block;
         aspect-ratio: 16/9;
         margin-bottom: 1rem;
