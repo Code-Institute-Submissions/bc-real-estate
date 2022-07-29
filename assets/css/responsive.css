@@ -119,7 +119,7 @@ text-align: right;
 }
 
 /*CONTACT US RESPONSIVE STYLE*/
-.form-section{
+.form-section {
     background-image: url("../images/signupImage.jpeg");
     background-size: cover;
     background-position: center;
@@ -127,14 +127,14 @@ text-align: right;
     height: auto;
 }
 
-.contact-form{
+.contact-form {
     text-align: left;
     width: 50%;
-    padding: 1.5rem;
+    padding: 1rem;
     display: block;
 }
 
-.contact-form > h2{
+.contact-form > h2 {
     margin-top:4rem;
 }
 
@@ -227,6 +227,10 @@ text-align: right;
     }
     #our-offer > h2{
         margin-bottom: 2rem;
+    }
+    /*CONTACT PAGE*/
+    .contact-form {
+        padding: 4rem 15%;
     }
 
 }
