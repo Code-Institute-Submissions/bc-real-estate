@@ -330,6 +330,11 @@ footer p {
     margin: 1.5rem;
 }
 
+#location-map > iframe{
+    height: 100%;
+    width: 100%;
+}
+
 #contact-page-footer {
     margin-top: 5rem;
 }
