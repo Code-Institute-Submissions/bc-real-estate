@@ -1,14 +1,17 @@
 # BC Real Estate
 
-The BC Real Estate website is a landing page for an imaginary real estate company.
+The BC Real Estate website is a landing page for an imaginary real estate company based in British Columbia.
 The user can explore all the different sections of the landing page, and not only.
 The website is composed of three separate pages all displayed in the navigation bar of the landing page.
 Each page presents different features as well as different functionalities that will enhance the overall experience of the website.
 
+
 ![Responsive Mockup](docs/responsive_mockup.jpeg)
 ## Features
 
-In general terms, the features of this website serve two main purposes: to invite visitors to take a look around and to get inspired by some design choices. A more detailed explanation of the features is below.
+In general terms, the features of the website serve two main purposes: to invite visitors to take a look around and to get inspired by some houses displayed on the catalogue page.
+Another important goal for BC Real Estate is to attract potential customers and to invite them to book a viewing if desired.
+A more detailed explanation of the features is below.
 
 ### Existing Features
 
@@ -16,7 +19,8 @@ __Navigation Bar__
 
 - The fully responsive navigation bar is included on all three pages. The navigation bar is kept both in style and functionality the same.
 - The navigation bar is fixed to the top of the page from 768px upwards. From a small screen (320px) the navigation bar is presented as a list menu.
-- It presents three clickable options: "**_Home_**", "**_Our catalogue_**", and "**_Contact Us_**".  
+- It presents three clickable options: "**_Home_**", "**_Our catalogue_**", and "**_Contact Us_**". 
+
 ![NavBar](docs/nav_bar_mockup.jpeg)
 ![NavBar small device](docs/responsive_nav_bar_mockup.jpeg)
 
@@ -101,8 +105,8 @@ letting the user know they have submitted the form successfully. The form URL wa
 The results are below:
 
 Homepage (desktop and mobile)
-![Lighthouse](docs/lighthouse_index.jpeg)
-![Lighthouse](docs/lighthouse_index_mobile.jpeg)
+![Lighthouse](docs/lighthouse_homepage.jpeg)
+![Lighthouse](docs/lighthouse_homepage_mobile.jpeg)
 Catalogue page (desktop and mobile)
 ![Lighthouse](docs/lighthouse_catalogue.jpeg)
 ![Lighthouse](docs/lighthouse_catalogue_mobile.jpeg)
