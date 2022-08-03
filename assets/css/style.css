@@ -214,7 +214,7 @@ menu > li {
 
 /*FOOTER SECTION GENERAL STYLE*/
 footer {
-    margin-top: 2rem;
+    margin-top: 5rem;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -266,7 +266,7 @@ footer p {
     gap: 0.75rem;
 }
 
-.price{
+.price {
     font-size: 1.25rem;
     color:#BCD3DE;
     text-align: right;
@@ -335,11 +335,7 @@ footer p {
     width: 100%;
 }
 
-#contact-page-footer {
-    margin-top: 5rem;
-}
-
-/*FROM MOBILE L ONWARDS - IMAGES FIX*/
+/*FROM MOBILE L UPWARDS - IMAGES FIX*/
 @media screen and (min-width: 425px) {
     /*LANDING PAGE*/
     .feature-items, .info-offer {

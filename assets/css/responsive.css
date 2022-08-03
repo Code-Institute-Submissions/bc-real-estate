@@ -135,7 +135,7 @@ text-align: right;
     margin-top:4rem;
 }
 
-/*FROM 1024px SMALL DESKTOP(LAPTOP) ONWARDS*/
+/*FROM 1024px SMALL DESKTOP(LAPTOP) UPWARDS*/
 @media screen and (min-width: 1024px) {
     /*LANDING PAGE*/
     header {
@@ -198,7 +198,7 @@ text-align: right;
     }
 }
 
-/*FROM LARGE DESKTOP ONWARDS*/
+/*FROM LARGE DESKTOP UPWARDS*/
 @media screen and (min-width: 1440px) {
     /*LANDING PAGE*/
     #features, #our-offer {
@@ -217,7 +217,7 @@ text-align: right;
 
 }
 
-/*FROM XL DESKTOP ONWARDS*/
+/*FROM XL DESKTOP UPWARDS*/
 @media screen and (min-width: 1800px) {
     /*LANDING PAGE*/
     header {
